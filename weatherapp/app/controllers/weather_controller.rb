@@ -7,4 +7,12 @@ class WeatherController < ApplicationController
         )
         render json: response
     end
+
+    def create
+        p "Waffles";
+    end
+
+    def weather_params
+
+    end
 end
